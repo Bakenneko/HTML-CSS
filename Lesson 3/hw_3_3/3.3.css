@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    height: 300vh;
+    background-color: grey;
+
+}
+
+.wrap1, .wrap2, .wrap3 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wrap1 {
+    background-color: brown;
+    color: black;
+}
+
+.wrap2 {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+.wrap3 {
+    background-color: green;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.3em;
+    max-width: 1200px;
+}
